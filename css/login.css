@@ -1,0 +1,43 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    background-image:linear-gradient(to top, rgb(253, 123, 1) ,rgba(0, 0, 0, 0.959));
+    justify-content: center;
+    align-items: center;
+    height: 100vh;            
+    margin: 0;   
+    
+}
+
+
+main{
+    background-color: rgba(199, 97, 2, 0.562) ;
+    text-align: center;
+    border-radius: 10% ;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.582);
+  
+}
+.material-symbols-outlined{
+    background-color: aqua;
+    width: 50px;
+ 
+}
+.img_logo{
+background-color: rgba(0, 0, 0, 0.226);
+
+
+
+
+}
+
+.campo{
+    height: 20px;
+    width: 300px ;
+   background-color: black;
+    
+}
+
+.btn{
+    margin: 2%;
+}
