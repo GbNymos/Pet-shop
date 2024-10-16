@@ -5,35 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mundo Pet Feliz</title>
     <!--ICON DO SITE-->
-    <link rel="icon" href="../img/icondosite.ico">
+    <link rel="shortcut icon" href="../img/pata-ico.png" >
     <!--lINKS PARA ESTILOS-->
-    <link rel="stylesheet" href="../style/login.css">
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/forms.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" >
     
 </head>
 <body>
 
 <main>
-    <img src="../img/logomarca.png " class="img_logo" alt="">
+    <img src="../img/logomarca.png " id="img_logo" alt="" width="150px">
     <h2>Login <span class="material-symbols-outlined">pets</span></h2>
     <form action="/login" method="post">
         <div class="div_campo">
-            <label for="email"  class="material-symbols-outlined">account_circle</label>
+            <label for="email"  class="material-symbols-outlined" id="icone">account_circle</label>
             <input type="email" id="email" name="email" placeholder="E-mail" required  class="campo">
         </div>
 
         <div class="div_campo">
-            <label for="senha"  class=" material-symbols-outlined">passkey</label>
+            <label for="senha"  class=" material-symbols-outlined" id="icone1">passkey</label>
             <input type="password" id="senha" name="senha" placeholder="Senha" required  class="campo">
         </div>
 
 
-        <input type="submit" value="Entrar" class="btn">
+        <input type="submit" value="Entrar" class="btn">  <a  href="recuperacao.html" class="link" >Esqueci a Senha</a>
     </form>
     
-    <!-- BOTÃO ESQUECI A SENHA" -->
-    <a  href="recuperacao.html" >Esqueci a Senha</a>
+   
 </main>
 </body>
 </html>

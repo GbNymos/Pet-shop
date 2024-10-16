@@ -1,0 +1,72 @@
+
+
+body{
+    background-color: #a7a5a650;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+#img_logo{
+   background-color:#c39b7f3b;
+    border-radius: 50%;
+}
+
+main{
+   text-align: center;
+   font-size: larger;
+   background-color:rgba(0, 0, 0, 0.075);
+   box-shadow: rgba(0, 0, 0, 0.521) 4px -6px 46px;
+   padding: 50px;
+}
+
+.div_campo{
+    display: flex;
+    margin-top: 20px;
+}
+#icone,#icone1,#icone2,#icone3{
+    border-top-left-radius: 5px;
+    background-color: var(--white);
+
+
+
+}
+.campo{
+    width: 250px;
+    border-style: none;
+    text-align: end;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.623) ;
+
+}
+
+.campo:focus{
+    background-color:#A7A5A6;
+}
+.btn{
+    font-weight: bolder;
+    background-color:#BE512A;
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.185) -10px 5px 10px;
+
+}
+.btn:hover{
+    height: 30px;
+    background-color:  #c39b7f;
+}
+
+.link{
+    margin: 20px;
+    color: red;
+    text-shadow: rgba(0, 0, 0, 0.733) 5px 0px 10px;
+}
+
+#voltar{
+    margin-top: 20px;
+    font-size: 40px;
+}
